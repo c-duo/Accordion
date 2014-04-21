@@ -1,0 +1,27 @@
+/* Accordion Styles */
+.accordion .title {
+  cursor: pointer;
+  line-height: 1.2;
+  text-align: left;
+  padding: 5px;
+  margin: 2% 0 0 0;
+}
+
+.accordion .title:before {
+  content: '+';
+}
+
+.accordion .title.open:before {content: '-';}
+
+.title + .content {
+  background: #eeeeee;
+  padding: 10px;
+  display: none;
+}
+
+.mobileAccordion .title + .content {display: block;}
+
+
+@media only screen and (max-width: 768px) {
+.mobileAccordion .title + .content {display: none;}
+}

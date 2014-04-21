@@ -1,0 +1,10 @@
+This is a clean and easily customizable accordion plugin. You can customize your selectors and functionality. 
+
+########## Setup ##########
+1. Wrap your accordion content in an ".accordion" container.
+2. Add ".title" to the element or container you want displayed when the accordion is collapsed.
+3. Add ".content" to the container you want to be hidden when the accordion is collapsed.
+
+########## Features ##########
+1. If you want your content to function as an accordion in a mobile view only, use ".mobileAccordion" as the main container selector instead.
+2. If you want all other accordions to collapse when you click on a new one, change the javascript setting "closeAll" to true.
